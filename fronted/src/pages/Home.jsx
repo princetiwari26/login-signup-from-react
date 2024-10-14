@@ -19,16 +19,13 @@ function Home() {
         }, 1000)
     }
 
-
-
-
     return (
         <div>
             <nav>
                 <button onClick={handleLogout}>Logout</button>
             </nav>
             <div className="content">
-                <h1>Welcome - {loggedInUser}</h1>
+                <h1>Welcome - {loggedInUser} </h1>
             </div>
             <ToastContainer />
         </div>
