@@ -23,7 +23,7 @@ function Signup() {
         e.preventDefault();
         const { name, email, password } = signupInfo;
         if (!name || !email || !password) {
-            return handleError('Name, Email and Password are required')
+            return handleError('Name, Email and Password are required...')
         }
         try {
             const url = `http://localhost:8000/auth/signup`;
