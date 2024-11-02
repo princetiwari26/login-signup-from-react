@@ -24,7 +24,7 @@ After logging in, users are directed to the home page. This page provides access
 - React
 - Node.js
 - Express
-- MongoDB (or your choice of database)
+- MongoDB
 
 ## Getting Started
 
